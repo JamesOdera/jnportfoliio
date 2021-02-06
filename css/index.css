@@ -277,13 +277,13 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: -160px;
+  margin-top: -200px;
 }
 
 .contact {
   position: fixed;
-  left: 30px;
-  top: 80%;
+  left: 180px;
+  top: 90%;
   transform: translateY(-50%);
   background-color: transparent;
   z-index: 1;
