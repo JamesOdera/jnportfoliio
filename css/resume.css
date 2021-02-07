@@ -1,0 +1,21 @@
+#hero .resume {
+  font-size: 100px;
+  font-weight: 600;
+}
+
+.nav-bar.brands a {
+  right: 90px;
+}
+
+.cont {
+  position: fixed;
+  left: 30px;
+  top: 90%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  z-index: 1;
+}
+
+p span {
+  color: rgb(71, 240, 153);
+}
