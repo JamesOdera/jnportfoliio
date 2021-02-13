@@ -8,7 +8,7 @@
 }
 
 .body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
 }
 
@@ -221,10 +221,20 @@
   .hero h1 {
     font-size: 30px;
   }
+  .contact {
+    display: none;
+  }
+  .typewrite {
+    font-size: 15px;
+  }
+  /* .social {
+    display: none;
+  } */
 }
 
 #hero h1 strong {
-  color: rgb(71, 240, 153);
+  color: rgb(35, 230, 178);
+  cursor: pointer;
 }
 
 #hero h1 a {
@@ -256,7 +266,7 @@
 .social {
   position: fixed;
   right: 30px;
-  top: 65%;
+  top: 50%;
   transform: translateY(-50%);
   border-radius: 20px;
   /* background-color: rgb(0, 0, 0); */
@@ -288,8 +298,8 @@
   color: #3f729b;
 }
 
-.social a:hover .fa-whatsapp {
-  color: green;
+.social a:hover .fa-linkedin-in {
+  color: #00acee;
 }
 
 .typewriter {
